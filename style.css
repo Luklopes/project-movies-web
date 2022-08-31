@@ -1,0 +1,85 @@
+html {
+    background-color: lightgrey;
+    font-family: "Verdana";
+}
+h1{margin:0}
+body{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  body {width: 90%}
+}
+header{border-bottom:1px solid black}
+#titulo{
+    float: left
+}
+#menu{
+    float: right;
+    vertical-align: middle;
+}
+#titulo span{
+    font-style: italic;
+}
+
+#menu li{
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 5px 10px
+}
+#menu a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+#menu li:hover, #menu li a:hover{
+    background-color: black;
+    color: white;
+}
+#dados {clear: none}
+@media screen and (max-width: 800px) {
+  #dados {clear: both}
+}
+figure img{width: 250px;}
+.clear{clear: both}
+#poster{float: left}
+dt{float: left; margin-right: 10px; width: 15em}
+dt, dd{line-height: 20px}
+#sinopse p{text-align: justify}
+#miniaturas{width: 200px; float: left}
+#miniaturas figure{width: 100%; display: block; margin: 0}
+#miniaturas figure img{width: 100%; margin: 5px 0px; cursor: pointer}
+.imagemGrande{width: 600px; margin-left: 50px; float: left}
+#elenco figure {width: 24%; display: inline-block; margin: 0}
+#elenco figure img{width: 100%; padding: 5px 0px}
+#elenco figcaption {text-align: center}
+#elenco figcaption span{font-style: italic}
+#elenco a{color: black; text-decoration: none}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+footer{color: #333; padding: 20px 0px; text-align: center;}
+footer span{font-style: italic; color: black}
+#topo{float: right; background-color: lightgrey; border: 2px solid black; border-radius: 5px; padding: 5px 10px; color: black; text-decoration: none}
+#topo:hover{float: right; background-color: black; color: white;}
+.active{border: 3px solid activeborder; box-shadow: 2px 2px 2px activeborder}
+
+
